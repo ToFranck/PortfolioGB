@@ -9,7 +9,7 @@ import './contact.css';
 
 export const Contact = () => {
   const form = useRef();
-  const [formSubmitted, setFormSubmitted] = useState(false);
+  const [formSubmitted, setFormSubmitted] = useState(false);  
 
   const sendEmail = (e) => {
     e.preventDefault();
