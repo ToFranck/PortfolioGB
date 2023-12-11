@@ -1,0 +1,191 @@
+
+
+.hero-container {
+    text-align: center;
+    padding: 50px;
+    
+}
+
+.hero-top {
+
+}
+
+.avatar {
+    /* margin-top: 50px; */
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+.hero-infos{
+    margin-top: 50px;
+    width: 900px;
+    margin: 0 auto;
+    
+}
+
+.hero-title{
+    font-size: 45px;
+    line-height: 60px;
+}
+
+.hero-descr{
+    font-size: 20px;
+    /* font-weight: 600; */
+    color: rgb(117, 117, 117);
+    line-height: 40px;
+}
+
+.specs {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+
+
+
+}
+
+.spe {
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    opacity: 0.45;
+    align-items: center;
+
+}
+
+.af {
+    box-shadow:  0px 0px 25px #00005b;
+    color: #00005b;
+
+}
+
+.ph {
+    box-shadow:  0px 0px 25px #227dc1;
+    color: #227dc1;
+}
+
+
+.il {
+    box-shadow:  0px 0px 25px #fd9800;
+    color: #fd9800;
+}
+
+.pr {
+    box-shadow:  0px 0px 25px #00005b;
+    color: #00005b;
+}
+
+.mi {
+    box-shadow:  0px 0px 25px #f563ff;
+color: #f563ff;
+}
+
+.ds{
+    box-shadow:  0px 0px 25px #37a5cc;
+    color: #37a5cc;
+}
+
+.bl {
+    box-shadow:  0px 0px 25px #e87d0d;
+    color: #e87d0d;
+}
+
+
+.line {
+    margin: 0px 80px 0 80px;
+    border-bottom: solid 3px rgb(221, 221, 221);
+}
+
+
+@media screen and (max-width: 1100px) {
+
+    .hero-container {
+        padding: 10px;
+        
+    }
+    .hero-title{
+        font-size: 25px;
+        line-height: 60px;
+    }
+    
+    .hero-descr{
+        
+        font-weight: 600;
+        color: rgb(117, 117, 117);
+        line-height: 40px;
+    }
+
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .hero-infos{
+        
+        width: 500px;
+        margin: 0 auto;
+        
+        
+    }
+
+    .hero-title{
+        
+        line-height: 40px;
+    }
+    .hero-descr{
+        margin-top: 30px;
+        font-weight: 400;
+    }
+
+    /* .specs{
+        justify-content: start;
+    } */
+
+}
+
+@media screen and (max-width:700px){
+
+    .specs {
+    
+        gap: 10px;
+
+        
+    
+    
+    }
+
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .hero-infos{
+        margin-top: 50px;
+        width: 400px;
+        margin: 0 auto;
+        
+    }
+
+    .hero-descr{
+        line-height: 30px;
+    }
+
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .hero-infos{
+      
+        width: 300px;
+        
+        
+    }
+
+}

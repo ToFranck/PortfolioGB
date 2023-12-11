@@ -1,0 +1,135 @@
+.contact {
+    padding: 80px
+}
+
+.contact h2 {
+    font-size: 25px;
+}
+
+.contact p {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-right: 200px;
+    color: rgb(117, 117, 117);
+}
+
+form {
+    
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    /* border: 1px solid #ddd; */
+
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+form input:focus {
+    outline: none;
+    border-color: #095484;
+}
+
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    
+}
+
+
+form textarea:focus {
+    outline: none;
+    border-color: #095484;
+    
+}
+
+form button {
+    display: block;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: solid #ddd;
+    border-radius: 5px;
+    color: #095484;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+form button:hover {
+    background-color: #095484;
+    color: #fff;
+    transition: background-color 1s ease; 
+}
+
+
+
+.msg {
+    color: green !important;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+    .contact {
+        margin: 50px;
+    }
+
+    
+}
+
+@media screen and (max-width: 800px) {
+
+
+    .contact p {
+
+    
+        padding-right: 0px;
+       
+    }
+    
+}
+
+@media screen and (max-width:700px){
+
+
+    .contact {
+        padding: 20px;
+        margin: 20px;
+    }
+
+}
+
+@media screen and (max-width:400px){
+
+    form {
+        max-width: 200px;
+    }
+}

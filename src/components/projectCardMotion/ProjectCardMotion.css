@@ -1,0 +1,70 @@
+
+
+.project-cardm {
+    width: 300px; 
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin: 10px; 
+    transition: transform 0.2s;
+    
+    overflow: hidden;
+  }
+  
+
+  
+  .cardm-img img {
+    width: 100%;
+    /* max-height: 200px;  */
+    height: 300px;
+    /* object-fit: cover;  */
+    object-fit: scale-down;
+  }
+
+  .project-cardm video {
+    width: 100%;
+    /* max-height: 200px;  */
+    height: 300px;
+    /* object-fit: cover;  */
+    object-fit: scale-down;
+  }
+  
+  .cardm-text {
+    padding: 10px; 
+  }
+  
+  .cardm-text h3 {
+    font-size: 20px;
+    margin: 0; 
+  }
+  
+  .cardm-text a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    
+    
+  }
+  
+  .cardm-text a:hover {
+    color: #0056b3;
+  }
+  
+
+  .cardm1{
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+@media screen and (max-width: 800px) {
+    
+  .project-cardm {
+    width: 250px; 
+
+  }
+  
+
+}
+
